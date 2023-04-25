@@ -152,3 +152,12 @@ div.innerText = "Olá divs!"
 const body = document.querySelector('body')
 const script = body.querySelector('script')
 body.insertBefore(div, script)
+
+
+// Adicionando eventos 
+
+const input = document.querySelector('input')
+
+input.onkeypress = function(){
+    console.log('rodei')
+}
